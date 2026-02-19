@@ -35,6 +35,15 @@ senha = 'a'+str(letraA) +'e'+str( letraE) +'i'+str( letraI) +'o'+str( letraO)+ '
 print("A sua senha é:", senha)
 
 
+nome2=nome.lower()
+letraA= nome2.count ('a')
+letraE= nome2.count ('e')
+letraI= nome2.count ('i')
+letraO= nome2.count ('o')
+letraU= nome2.count ('u')
+
+usuario=nome+str(letraA)+str(letraE)+str(letraI)+str(letraO)+str(letraU)
+print(usuario)
 
 
 
